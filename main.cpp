@@ -8,7 +8,7 @@ void setup() {
 
 void loop() {
   digitalWrite(LED_PIN, HIGH);  // Включаем светодиод
-  delay(1000);                  // Ждём 1 секунду
+  delay(2000);                  // Ждём 1 секунду
   digitalWrite(LED_PIN, LOW);   // Выключаем светодиод
-  delay(1000);                  // Ждём 1 секунду
+  delay(2000);                  // Ждём 1 секунду
 }
